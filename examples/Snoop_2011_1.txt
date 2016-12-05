@@ -1,0 +1,1250 @@
+
+
+ type=frequency channel="2412/20/gn" use=7.2% bitrate=69.3kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=4 
+
+ type=frequency channel="2417/20/gn" use=3.5% bitrate=32.3kbps 
+   frequency-network-count=0 noise-floor=-100 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=2.5% bitrate=11.8kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=1% bitrate=9.9kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=23.0kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=790ms beacon-strength=-79dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.4% use-of-traffic=34.4% 
+
+ type=network channel="2412/20/gn" bitrate=23.0kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=780ms beacon-strength=-82dBm 
+   signal-to-noise=16dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.4% use-of-traffic=34.4% 
+
+ type=network channel="2412/20/gn" bitrate=23.3kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=760ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=2 
+   use-of-freq=2.2% use-of-traffic=31.1% 
+
+ type=station channel="2412/20/gn" bitrate=23.0kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=2.4% use-of-traffic=34.4% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=23.0kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=16dB 
+   ssid-source=beacon use-of-freq=2.4% use-of-traffic=34.4% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=22.4kbps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=2.2% use-of-traffic=30.7% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=920bps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=63dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0.3% 
+   freq-source=network-on-freq signal-strength=-35dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=7.2% bitrate=69.3kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=4 
+
+ type=frequency channel="2417/20/gn" use=3.5% bitrate=32.3kbps 
+   frequency-network-count=0 noise-floor=-100 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=2.5% bitrate=11.8kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=1% bitrate=9.9kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=1.1% bitrate=10.0kbps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=2.2% bitrate=20.5kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=2.2% bitrate=20.5kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=2.2% bitrate=20.6kbps 
+   frequency-network-count=0 noise-floor=-103 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=2.2% bitrate=14.9kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=23.0kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=1s850ms beacon-strength=-79dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.4% use-of-traffic=34.4% 
+
+ type=network channel="2412/20/gn" bitrate=23.0kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=1s840ms beacon-strength=-82dBm 
+   signal-to-noise=16dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.4% use-of-traffic=34.4% 
+
+ type=network channel="2412/20/gn" bitrate=23.3kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=1s820ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=2 
+   use-of-freq=2.2% use-of-traffic=31.1% 
+
+ type=station channel="2412/20/gn" bitrate=23.0kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=2.4% use-of-traffic=34.4% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=23.0kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=16dB 
+   ssid-source=beacon use-of-freq=2.4% use-of-traffic=34.4% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=22.4kbps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=2.2% use-of-traffic=30.7% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=920bps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=63dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0.3% 
+   freq-source=network-on-freq signal-strength=-35dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=5.6% bitrate=39.4kbps 
+   frequency-network-count=3 noise-floor=-97 frequency-station-count=4 
+
+ type=frequency channel="2417/20/gn" use=3.5% bitrate=32.3kbps 
+   frequency-network-count=0 noise-floor=-100 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=2.5% bitrate=11.8kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=1% bitrate=9.9kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=1.1% bitrate=10.0kbps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=2.2% bitrate=20.5kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=2.2% bitrate=20.5kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=2.2% bitrate=20.6kbps 
+   frequency-network-count=0 noise-floor=-103 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=2.2% bitrate=14.9kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=4.3% bitrate=7.8kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=1.8% bitrate=16.0kbps 
+   frequency-network-count=1 noise-floor=-106 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=1.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=0.8% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=23.8kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=60ms beacon-strength=-79dBm 
+   signal-to-noise=18dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.5% use-of-traffic=45.7% 
+
+ type=network channel="2412/20/gn" bitrate=15.6kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=40ms beacon-strength=-82dBm 
+   signal-to-noise=15dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.7% use-of-traffic=31.3% 
+
+ type=network channel="2412/20/gn" bitrate=0bps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=2s900ms beacon-strength=-23dBm 
+   signal-to-noise=74dB ssid-source=beacon network-station-count=2 
+   use-of-freq=0% use-of-traffic=0% 
+
+ type=network channel="2462/20/gn" bitrate=16.0kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=740ms beacon-strength=-86dBm 
+   signal-to-noise=20dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.8% use-of-traffic=100% 
+
+ type=station channel="2412/20/gn" bitrate=23.8kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=18dB 
+   ssid-source=beacon use-of-freq=2.5% use-of-traffic=45.7% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=15.6kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=15dB 
+   ssid-source=beacon use-of-freq=1.7% use-of-traffic=31.3% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=74dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=62dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-35dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=16.0kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=20dB 
+   ssid-source=beacon use-of-freq=1.8% use-of-traffic=100% 
+   freq-source=network-on-freq signal-strength=-86dB 
+   network-source=forms-network 
+
+
+ type=frequency channel="2412/20/gn" use=5.6% bitrate=39.4kbps 
+   frequency-network-count=3 noise-floor=-97 frequency-station-count=5 
+
+ type=frequency channel="2417/20/gn" use=10% bitrate=65.6kbps 
+   frequency-network-count=0 noise-floor=-97 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=2.6% bitrate=12.3kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=2.2% bitrate=20.5kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=2.2% bitrate=20.6kbps 
+   frequency-network-count=0 noise-floor=-103 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=2.2% bitrate=14.9kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=4.3% bitrate=7.8kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=1.8% bitrate=16.0kbps 
+   frequency-network-count=1 noise-floor=-106 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=1.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=0.8% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=23.8kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=1s150ms beacon-strength=-79dBm 
+   signal-to-noise=18dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.5% use-of-traffic=45.7% 
+
+ type=network channel="2412/20/gn" bitrate=15.6kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=1s130ms beacon-strength=-82dBm 
+   signal-to-noise=15dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.7% use-of-traffic=31.3% 
+
+ type=network channel="2412/20/gn" bitrate=0bps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=3s990ms beacon-strength=-23dBm 
+   signal-to-noise=74dB ssid-source=beacon network-station-count=3 
+   use-of-freq=0% use-of-traffic=0% 
+
+ type=network channel="2462/20/gn" bitrate=16.0kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=1s830ms beacon-strength=-86dBm 
+   signal-to-noise=20dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.8% use-of-traffic=100% 
+
+ type=station channel="2412/20/gn" bitrate=23.8kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=18dB 
+   ssid-source=beacon use-of-freq=2.5% use-of-traffic=45.7% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=15.6kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=15dB 
+   ssid-source=beacon use-of-freq=1.7% use-of-traffic=31.3% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=74dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=62dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-35dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=16.0kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=20dB 
+   ssid-source=beacon use-of-freq=1.8% use-of-traffic=100% 
+   freq-source=network-on-freq signal-strength=-86dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=-3dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-100dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=5.6% bitrate=39.4kbps 
+   frequency-network-count=3 noise-floor=-97 frequency-station-count=5 
+
+ type=frequency channel="2417/20/gn" use=10% bitrate=65.6kbps 
+   frequency-network-count=0 noise-floor=-97 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=2.6% bitrate=12.3kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=5.9% bitrate=28.7kbps 
+   frequency-network-count=0 noise-floor=-102 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-102 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=4.3% bitrate=26.3kbps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=4.4% bitrate=35.6kbps 
+   frequency-network-count=1 noise-floor=-107 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=1.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=0.8% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=23.8kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=2s260ms beacon-strength=-79dBm 
+   signal-to-noise=18dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.5% use-of-traffic=45.7% 
+
+ type=network channel="2412/20/gn" bitrate=15.6kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=2s240ms beacon-strength=-82dBm 
+   signal-to-noise=15dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.7% use-of-traffic=31.3% 
+
+ type=network channel="2412/20/gn" bitrate=0bps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=5s100ms beacon-strength=-23dBm 
+   signal-to-noise=74dB ssid-source=beacon network-station-count=3 
+   use-of-freq=0% use-of-traffic=0% 
+
+ type=network channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=180ms beacon-strength=-88dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.7% use-of-traffic=38.7% 
+
+ type=station channel="2412/20/gn" bitrate=23.8kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=18dB 
+   ssid-source=beacon use-of-freq=2.5% use-of-traffic=45.7% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=15.6kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=15dB 
+   ssid-source=beacon use-of-freq=1.7% use-of-traffic=31.3% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=74dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=62dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-35dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=1.7% use-of-traffic=38.7% 
+   freq-source=network-on-freq signal-strength=-88dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=-3dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-100dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=13.3% bitrate=113.1kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=5 
+
+ type=frequency channel="2417/20/gn" use=18.4% bitrate=110.2kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=4.4% bitrate=23.0kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=5.9% bitrate=28.7kbps 
+   frequency-network-count=0 noise-floor=-102 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-102 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=4.3% bitrate=26.3kbps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=4.4% bitrate=35.6kbps 
+   frequency-network-count=1 noise-floor=-107 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=1.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=580ms beacon-strength=-80dBm 
+   signal-to-noise=18dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.6% use-of-traffic=19.7% 
+
+ type=network channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=570ms beacon-strength=-82dBm 
+   signal-to-noise=16dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.6% use-of-traffic=19.7% 
+
+ type=network channel="2412/20/gn" bitrate=64.6kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=6s180ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=3 
+   use-of-freq=8% use-of-traffic=60.5% 
+
+ type=network channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=1s260ms beacon-strength=-88dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.7% use-of-traffic=38.7% 
+
+ type=station channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=18dB 
+   ssid-source=beacon use-of-freq=2.6% use-of-traffic=19.7% 
+   freq-source=network-on-freq signal-strength=-80dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=16dB 
+   ssid-source=beacon use-of-freq=2.6% use-of-traffic=19.7% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=13.6kbps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=47dB 
+   ssid-source=beacon use-of-freq=0.4% use-of-traffic=3.3% 
+   freq-source=network-on-freq signal-strength=-51dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=1.7% use-of-traffic=38.7% 
+   freq-source=network-on-freq signal-strength=-88dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=51.0kbps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=7.6% use-of-traffic=57.1% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=13.3% bitrate=113.1kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=5 
+
+ type=frequency channel="2417/20/gn" use=18.4% bitrate=110.2kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=4.4% bitrate=23.0kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=2.2% bitrate=15.0kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=5.3% bitrate=21.6kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=6.3% bitrate=30.7kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=0.1% bitrate=944bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=4.3% bitrate=26.3kbps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=4.4% bitrate=35.6kbps 
+   frequency-network-count=1 noise-floor=-107 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=1.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=1s660ms beacon-strength=-80dBm 
+   signal-to-noise=18dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.6% use-of-traffic=19.7% 
+
+ type=network channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=1s650ms beacon-strength=-82dBm 
+   signal-to-noise=16dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.6% use-of-traffic=19.7% 
+
+ type=network channel="2412/20/gn" bitrate=64.6kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=7s260ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=3 
+   use-of-freq=8% use-of-traffic=60.5% 
+
+ type=network channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=2s340ms beacon-strength=-88dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.7% use-of-traffic=38.7% 
+
+ type=station channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=18dB 
+   ssid-source=beacon use-of-freq=2.6% use-of-traffic=19.7% 
+   freq-source=network-on-freq signal-strength=-80dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=16dB 
+   ssid-source=beacon use-of-freq=2.6% use-of-traffic=19.7% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=13.6kbps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=47dB 
+   ssid-source=beacon use-of-freq=0.4% use-of-traffic=3.3% 
+   freq-source=network-on-freq signal-strength=-51dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=1.7% use-of-traffic=38.7% 
+   freq-source=network-on-freq signal-strength=-88dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=51.0kbps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=7.6% use-of-traffic=57.1% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=13.3% bitrate=113.1kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=5 
+
+ type=frequency channel="2417/20/gn" use=18.4% bitrate=110.2kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=4.4% bitrate=23.0kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=2.2% bitrate=15.0kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=5.3% bitrate=21.6kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=6.3% bitrate=30.7kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=0.1% bitrate=944bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=1.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=1.7% bitrate=15.2kbps 
+   frequency-network-count=1 noise-floor=-106 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=0.8% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=60ms beacon-strength=-66dBm 
+   signal-to-noise=32dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.6% use-of-traffic=19.7% 
+
+ type=network channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=70ms beacon-strength=-70dBm 
+   signal-to-noise=28dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.6% use-of-traffic=19.7% 
+
+ type=network channel="2412/20/gn" bitrate=64.6kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=8s340ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=3 
+   use-of-freq=8% use-of-traffic=60.5% 
+
+ type=network channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=660ms beacon-strength=-86dBm 
+   signal-to-noise=20dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.7% use-of-traffic=100% 
+
+ type=station channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=32dB 
+   ssid-source=beacon use-of-freq=2.6% use-of-traffic=19.7% 
+   freq-source=network-on-freq signal-strength=-66dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=24.2kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=28dB 
+   ssid-source=beacon use-of-freq=2.6% use-of-traffic=19.7% 
+   freq-source=network-on-freq signal-strength=-70dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=13.6kbps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=41dB 
+   ssid-source=beacon use-of-freq=0.4% use-of-traffic=3.3% 
+   freq-source=network-on-freq signal-strength=-57dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=20dB 
+   ssid-source=beacon use-of-freq=1.7% use-of-traffic=100% 
+   freq-source=network-on-freq signal-strength=-86dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=51.0kbps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=7.6% use-of-traffic=57.1% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=8.3% bitrate=74.1kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=6 
+
+ type=frequency channel="2417/20/gn" use=6.4% bitrate=41.2kbps 
+   frequency-network-count=0 noise-floor=-97 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=2.5% bitrate=11.8kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=6.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=4.6% bitrate=20.8kbps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=5.3% bitrate=21.6kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=6.3% bitrate=30.7kbps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=0.1% bitrate=944bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=1.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=1.7% bitrate=15.2kbps 
+   frequency-network-count=1 noise-floor=-106 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=0.8% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=23.4kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=1s50ms beacon-strength=-79dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.5% use-of-traffic=30.5% 
+
+ type=network channel="2412/20/gn" bitrate=43.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=1s40ms beacon-strength=-82dBm 
+   signal-to-noise=16dB ssid-source=beacon network-station-count=2 
+   use-of-freq=4.8% use-of-traffic=58.1% 
+
+ type=network channel="2412/20/gn" bitrate=7.5kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=9s420ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=3 
+   use-of-freq=0.9% use-of-traffic=11.3% 
+
+ type=network channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=1s740ms beacon-strength=-86dBm 
+   signal-to-noise=20dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.7% use-of-traffic=100% 
+
+ type=station channel="2412/20/gn" bitrate=23.4kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=2.5% use-of-traffic=30.5% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=42.2kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=16dB 
+   ssid-source=beacon use-of-freq=4.8% use-of-traffic=57.8% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=7.5kbps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=41dB 
+   ssid-source=beacon use-of-freq=0.9% use-of-traffic=11.3% 
+   freq-source=network-on-freq signal-strength=-57dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=20dB 
+   ssid-source=beacon use-of-freq=1.7% use-of-traffic=100% 
+   freq-source=network-on-freq signal-strength=-86dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2412/20/gn" bitrate=936bps active=yes 
+   address=C8:38:70:90:0D:87 network-ssid="jofre" signal-to-noise=34dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0.2% 
+   freq-source=network-on-freq signal-strength=-64dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=8.3% bitrate=74.1kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=6 
+
+ type=frequency channel="2417/20/gn" use=6.4% bitrate=41.2kbps 
+   frequency-network-count=0 noise-floor=-97 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=2.5% bitrate=11.8kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=6.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=4.6% bitrate=20.8kbps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=0.1% bitrate=968bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-103 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=7.3% bitrate=47.8kbps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=1.7% bitrate=15.2kbps 
+   frequency-network-count=1 noise-floor=-106 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=0.8% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=23.4kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=2s130ms beacon-strength=-79dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=2.5% use-of-traffic=30.5% 
+
+ type=network channel="2412/20/gn" bitrate=43.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=2s120ms beacon-strength=-82dBm 
+   signal-to-noise=16dB ssid-source=beacon network-station-count=2 
+   use-of-freq=4.8% use-of-traffic=58.1% 
+
+ type=network channel="2412/20/gn" bitrate=7.5kbps active=no 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=10s500ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=3 
+   use-of-freq=0.9% use-of-traffic=11.3% 
+
+ type=network channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=50ms beacon-strength=-85dBm 
+   signal-to-noise=21dB ssid-source=beacon network-station-count=1 
+   use-of-freq=1.7% use-of-traffic=100% 
+
+ type=station channel="2412/20/gn" bitrate=23.4kbps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=2.5% use-of-traffic=30.5% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=42.2kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=16dB 
+   ssid-source=beacon use-of-freq=4.8% use-of-traffic=57.8% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=7.5kbps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=41dB 
+   ssid-source=beacon use-of-freq=0.9% use-of-traffic=11.3% 
+   freq-source=network-on-freq signal-strength=-57dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=15.2kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=21dB 
+   ssid-source=beacon use-of-freq=1.7% use-of-traffic=100% 
+   freq-source=network-on-freq signal-strength=-85dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2412/20/gn" bitrate=936bps active=yes 
+   address=C8:38:70:90:0D:87 network-ssid="jofre" signal-to-noise=34dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0.2% 
+   freq-source=network-on-freq signal-strength=-64dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=5.2% bitrate=36.8kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=6 
+
+ type=frequency channel="2417/20/gn" use=4.8% bitrate=35.2kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=2.5% bitrate=11.8kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=6.7% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=4.6% bitrate=20.8kbps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=0.1% bitrate=968bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-103 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=7.3% bitrate=47.8kbps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=2% bitrate=17.0kbps 
+   frequency-network-count=1 noise-floor=-106 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=10.1% bitrate=61.8kbps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=25% bitrate=190.9kbps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=0bps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=3s200ms beacon-strength=-79dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=0% use-of-traffic=0% 
+
+ type=network channel="2412/20/gn" bitrate=23.6kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=430ms beacon-strength=-82dBm 
+   signal-to-noise=16dB ssid-source=beacon network-station-count=2 
+   use-of-freq=2.5% use-of-traffic=48.4% 
+
+ type=network channel="2412/20/gn" bitrate=13.2kbps active=no 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=11s580ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=3 
+   use-of-freq=2.7% use-of-traffic=51.5% 
+
+ type=network channel="2462/20/gn" bitrate=7.9kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=1s130ms beacon-strength=-85dBm 
+   signal-to-noise=21dB ssid-source=beacon network-station-count=1 
+   use-of-freq=0.8% use-of-traffic=44.3% 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=23.6kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=16dB 
+   ssid-source=beacon use-of-freq=2.5% use-of-traffic=48.4% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=13.2kbps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=2.7% use-of-traffic=51.5% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=7.9kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=21dB 
+   ssid-source=beacon use-of-freq=0.8% use-of-traffic=44.3% 
+   freq-source=network-on-freq signal-strength=-85dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=C8:38:70:90:0D:87 network-ssid="jofre" signal-to-noise=34dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-64dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=5.2% bitrate=36.8kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=6 
+
+ type=frequency channel="2417/20/gn" use=4.8% bitrate=35.2kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-100 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=0.7% bitrate=2.7kbps 
+   frequency-network-count=0 noise-floor=-99 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-103 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=7.3% bitrate=47.8kbps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=2% bitrate=17.0kbps 
+   frequency-network-count=1 noise-floor=-106 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=10.1% bitrate=61.8kbps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=25% bitrate=190.9kbps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=0bps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=4s300ms beacon-strength=-79dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=0% use-of-traffic=0% 
+
+ type=network channel="2412/20/gn" bitrate=23.6kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=1s530ms beacon-strength=-82dBm 
+   signal-to-noise=16dB ssid-source=beacon network-station-count=2 
+   use-of-freq=2.5% use-of-traffic=48.4% 
+
+ type=network channel="2412/20/gn" bitrate=13.2kbps active=no 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=12s670ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=3 
+   use-of-freq=2.7% use-of-traffic=51.5% 
+
+ type=network channel="2462/20/gn" bitrate=7.9kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=2s220ms beacon-strength=-85dBm 
+   signal-to-noise=21dB ssid-source=beacon network-station-count=1 
+   use-of-freq=0.8% use-of-traffic=44.3% 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=23.6kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=16dB 
+   ssid-source=beacon use-of-freq=2.5% use-of-traffic=48.4% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=no 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=13.2kbps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=2.7% use-of-traffic=51.5% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=7.9kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=21dB 
+   ssid-source=beacon use-of-freq=0.8% use-of-traffic=44.3% 
+   freq-source=network-on-freq signal-strength=-85dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=C8:38:70:90:0D:87 network-ssid="jofre" signal-to-noise=34dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-64dB 
+   network-source=seen-data-frame 
+
+
+ type=frequency channel="2412/20/gn" use=5.2% bitrate=36.8kbps 
+   frequency-network-count=3 noise-floor=-98 frequency-station-count=6 
+
+ type=frequency channel="2417/20/gn" use=4.8% bitrate=35.2kbps 
+   frequency-network-count=0 noise-floor=-101 frequency-station-count=0 
+
+ type=frequency channel="2422/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-100 frequency-station-count=0 
+
+ type=frequency channel="2427/20/gn" use=0.7% bitrate=2.7kbps 
+   frequency-network-count=0 noise-floor=-99 frequency-station-count=0 
+
+ type=frequency channel="2432/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2437/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2442/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-104 frequency-station-count=0 
+
+ type=frequency channel="2447/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-103 frequency-station-count=0 
+
+ type=frequency channel="2452/20/gn" use=0% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-103 frequency-station-count=0 
+
+ type=frequency channel="2457/20/gn" use=0.8% bitrate=0bps 
+   frequency-network-count=0 noise-floor=-105 frequency-station-count=0 
+
+ type=frequency channel="2462/20/gn" use=3.4% bitrate=21.9kbps 
+   frequency-network-count=1 noise-floor=-107 frequency-station-count=1 
+
+ type=frequency channel="2467/20/gn" use=2.9% bitrate=9.5kbps 
+   frequency-network-count=0 noise-floor=-106 frequency-station-count=0 
+
+ type=frequency channel="2472/20/gn" use=25% bitrate=190.9kbps 
+   frequency-network-count=0 noise-floor=-107 frequency-station-count=0 
+
+ type=network channel="2412/20/gn" bitrate=0bps active=yes 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:15:D7:DF 
+   network-ssid="jofre" last-beacon=5s400ms beacon-strength=-79dBm 
+   signal-to-noise=19dB ssid-source=beacon network-station-count=1 
+   use-of-freq=0% use-of-traffic=0% 
+
+ type=network channel="2412/20/gn" bitrate=23.6kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=4C:5E:0C:B6:A8:FB 
+   network-ssid="jofre" last-beacon=2s630ms beacon-strength=-82dBm 
+   signal-to-noise=16dB ssid-source=beacon network-station-count=2 
+   use-of-freq=2.5% use-of-traffic=48.4% 
+
+ type=network channel="2412/20/gn" bitrate=13.2kbps active=no 
+   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 
+   network-ssid="Free Emagina" last-beacon=13s770ms beacon-strength=-23dBm 
+   signal-to-noise=75dB ssid-source=beacon network-station-count=3 
+   use-of-freq=2.7% use-of-traffic=51.5% 
+
+ type=network channel="2462/20/gn" bitrate=7.8kbps active=yes 
+   frequency-known=yes beacon-seen=yes address=F8:8E:85:0D:B0:67 
+   network-ssid="JAZZTEL_B067" last-beacon=450ms beacon-strength=-86dBm 
+   signal-to-noise=21dB ssid-source=beacon network-station-count=1 
+   use-of-freq=0.8% use-of-traffic=25.3% 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=E4:8D:8C:15:D7:DF network-ssid="jofre" signal-to-noise=19dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-79dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=23.6kbps active=yes 
+   address=4C:5E:0C:B6:A8:FB network-ssid="jofre" signal-to-noise=16dB 
+   ssid-source=beacon use-of-freq=2.5% use-of-traffic=48.4% 
+   freq-source=network-on-freq signal-strength=-82dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=no 
+   address=E4:8D:8C:C1:D8:51 network-ssid="Free Emagina" signal-to-noise=75dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-23dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=13.2kbps active=yes 
+   address=04:15:52:15:7D:32 network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=2.7% use-of-traffic=51.5% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2462/20/gn" bitrate=7.8kbps active=yes 
+   address=F8:8E:85:0D:B0:67 network-ssid="JAZZTEL_B067" signal-to-noise=21dB 
+   ssid-source=beacon use-of-freq=0.8% use-of-traffic=25.3% 
+   freq-source=network-on-freq signal-strength=-86dB 
+   network-source=forms-network 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=18:3A:2D:69:79:9A network-ssid="Free Emagina" signal-to-noise=58dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-40dB 
+   network-source=seen-data-frame 
+
+ type=station channel="2412/20/gn" bitrate=0bps active=yes 
+   address=C8:38:70:90:0D:87 network-ssid="jofre" signal-to-noise=34dB 
+   ssid-source=beacon use-of-freq=0% use-of-traffic=0% 
+   freq-source=network-on-freq signal-strength=-64dB 
+   network-source=seen-data-frame 
+
