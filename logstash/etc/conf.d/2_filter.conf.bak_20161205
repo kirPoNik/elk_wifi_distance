@@ -1,0 +1,87 @@
+filter {
+
+    mutate {
+        strip => ["message"]
+    }
+
+    ## https://www.elastic.co/guide/en/logstash/current/plugins-filters-kv.html
+    kv {
+    }
+
+    ## Station type:
+    ## "message" => "type=station channel=\"2462/20/gn\" bitrate=7.8kbps active=yes \r\n   address=F8:8E:85:0D:B0:67 network-ssid=\"JAZZTEL_B067\" signal-to-noise=21dB \r\n   ssid-source=beacon use-of-freq=0.8% use-of-traffic=25.3% \r\n   freq-source=network-on-freq signal-strength=-86dB \r\n   network-source=forms-network",
+    if [type] == "station" {
+        
+        grok {
+            break_on_match => false         
+            match => { "channel" => "(?<channel-frequency-int>[^\/]+)" }
+            match => { "signal-strength" => "(?<signal-strength-int>[^dB]+)"   }
+            match => { "signal-to-noise" => "(?<signal-to-noise-int>[^dB]+)"   }
+        }        
+
+        mutate {
+            rename => {
+                "address" => "mac-address"
+            }
+            convert => {
+                "signal-strength-int" => "integer"
+                "signal-to-noise-int" => "integer"
+                "channel-frequency-int" => "integer"
+            }
+        }
+ 
+    }
+   
+    ## Network type:
+    ## "message" => "type=network channel=\"2412/20/gn\" bitrate=13.2kbps active=no \r\n   frequency-known=yes beacon-seen=yes address=E4:8D:8C:C1:D8:51 \r\n   network-ssid=\"Free Emagina\" last-beacon=13s770ms beacon-strength=-23dBm \r\n   signal-to-noise=75dB ssid-source=beacon network-station-count=3 \r\n   use-of-freq=2.7% use-of-traffic=51.5%", 
+    if [type] == "network" {
+
+        grok {
+            break_on_match => false         
+            match => { "channel" => "(?<channel-frequency-int>[^\/]+)" }
+            match => { "beacon-strength" => "(?<signal-strength-int>[^dB]+)"   }
+            match => { "signal-to-noise" => "(?<signal-to-noise-int>[^dB]+)"   }
+        }
+
+        mutate {
+            rename => {
+                "address" => "mac-address"
+            }
+            convert => {
+                "signal-strength-int" => "integer"
+                "signal-to-noise-int" => "integer"
+                "channel-frequency-int" => "integer"
+            }
+        }
+    
+    }
+
+    ## Frequency type
+    ## "message" => "type=frequency channel=\"2472/20/gn\" use=25% bitrate=190.9kbps \r\n   frequency-network-count=0 noise-floor=-107 frequency-station-count=0",
+    if [type] == "frequency" {
+        
+        grok {
+            match => { "channel" => "(?<channel-frequency-int>[^\/]+)" }
+        }
+
+         mutate {
+            convert => {
+                "channel-frequency-int" => "integer"
+            }   
+        }
+        
+
+    }
+
+    if [channel-frequency-int]  and [signal-strength-int] {
+        
+        ruby {
+            code => "freq = event.get('channel-frequency-int')
+                     strength = event.get('signal-strength-int')
+                     distance =  10 ** ((  27.55 - ( 20 * Math.log10(freq) ) + strength.abs )/20)
+                     event.set('distance', distance)"
+        }
+        
+    }
+
+}
