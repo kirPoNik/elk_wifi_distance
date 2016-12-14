@@ -1,0 +1,20 @@
+{
+  "title": "it/out devices",
+  "hits": 0,
+  "description": "",
+  "panelsJSON": "[{\"col\":1,\"id\":\"Device-Ids\",\"panelIndex\":9,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"insiders-count-by-device_id\",\"panelIndex\":6,\"row\":6,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"outsiders-count-by-device_id\",\"panelIndex\":7,\"row\":6,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"OUI-by-MAC-address\",\"panelIndex\":5,\"row\":10,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":7,\"columns\":[\"_source\"],\"id\":\"Test-Search\",\"panelIndex\":2,\"row\":10,\"size_x\":6,\"size_y\":5,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":7,\"id\":\"Uniq-outsiders-count-by-date\",\"panelIndex\":10,\"row\":3,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Uniq-Insiders-count-by-date\",\"panelIndex\":11,\"row\":3,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Empty-Space\",\"panelIndex\":12,\"row\":1,\"size_x\":9,\"size_y\":2,\"type\":\"visualization\"}]",
+  "optionsJSON": "{\"darkTheme\":false}",
+  "uiStateJSON": "{\"P-10\":{\"vis\":{\"legendOpen\":true}},\"P-11\":{\"vis\":{\"legendOpen\":true}},\"P-6\":{\"vis\":{\"legendOpen\":true}},\"P-9\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+  "version": 1,
+  "timeRestore": true,
+  "timeTo": "now",
+  "timeFrom": "now-1h",
+  "refreshInterval": {
+    "display": "Off",
+    "pause": false,
+    "value": 0
+  },
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+  }
+}
