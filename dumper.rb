@@ -61,38 +61,45 @@ client = Elasticsearch::Client.new hosts: [ { host: host, port: port } ]
 
 
 ## Dashboards
-begin
-  rslt = client.search(index: index, body: { query: { match: { _type: "dashboard" } }})
-rescue Exception => e
-  puts "An error occured : #{e.message}"
-  exit 1
-end
+  count = client.count(index: index, body: { query: { match: { _type: "dashboard" } }})
+  #puts count
+  if count.has_key?("count")
+    size = count["count"].to_i
+    begin
+        rslt = client.search(index: index, body: { query: { match: { _type: "dashboard" } }, size: size })
+    rescue Exception => e
+        puts "An error occured : #{e.message}"
+        exit 1
+    end
+    if rslt.has_key?("hits")
+        rslt["hits"]["hits"].each do |dash|
+            name = dash["_id"].gsub(" ","_").downcase
+            puts name
+            File.open(File.join(outputdir, "dash_#{name}.json"), "w") do |fp|
+                fp.write(JSON.pretty_generate( dash["_source"] ))
+            end
+        end
+    end
+  end  
 
-if rslt.has_key?("hits")
-  rslt["hits"]["hits"].each do |dash|
-    name = dash["_id"].gsub(" ","_").downcase
-    puts name
-    File.open(File.join(outputdir, "dash_#{name}.json"), "w") do |fp|
-      #fp.write(JSON.pretty_generate( JSON.parse(dash["_source"])))
-      fp.write(JSON.pretty_generate( dash["_source"] ))
+## Visualizations
+  count = client.count(index: index, body: { query: { match: { _type: "visualization" } }})
+  #puts count
+  if count.has_key?("count")
+    size = count["count"].to_i
+    begin
+        rslt = client.search(index: index, body: { query: { match: { _type: "visualization" } }, size: size })
+    rescue Exception => e
+        puts "An error occured : #{e.message}"
+        exit 1
+    end
+    if rslt.has_key?("hits")
+        rslt["hits"]["hits"].each do |dash|
+            name = dash["_id"].gsub("-","_").downcase
+            puts name
+            File.open(File.join(outputdir, "visual_#{name}.json"), "w") do |fp|
+                fp.write(JSON.pretty_generate( dash["_source"] ))
+            end
+        end
     end
   end
-end
-
-begin
-  rslt = client.search(index: index, body: { query: { match: { _type: "visualization" } }})
-rescue Exception => e
-  puts "An error occured : #{e.message}"
-  exit 1
-end
-
-if rslt.has_key?("hits")
-  rslt["hits"]["hits"].each do |visul|
-    name = visul["_id"].gsub(" ","_").downcase
-    puts name
-    File.open(File.join(outputdir, "visual_#{name}.json"), "w") do |fp|
-      #fp.write(JSON.pretty_generate( JSON.parse(dash["_source"])))
-      fp.write(JSON.pretty_generate( visul["_source"] ))
-    end
-  end
-end
