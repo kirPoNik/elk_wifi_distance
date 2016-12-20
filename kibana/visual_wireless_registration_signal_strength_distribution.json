@@ -1,0 +1,10 @@
+{
+  "title": "wireless_registration signal_strength distribution",
+  "visState": "{\"title\":\"wireless_registration signal_strength distribution\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"shareYAxis\":true,\"showCircles\":true,\"smoothLines\":false,\"times\":[],\"yAxis\":{\"max\":-50,\"min\":-100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"signal_strength_ch0\",\"interval\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+  "uiStateJSON": "{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}}",
+  "description": "",
+  "version": 1,
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"tags:ftp_import_wireless_registration\"}},\"filter\":[]}"
+  }
+}
