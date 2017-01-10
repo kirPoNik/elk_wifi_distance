@@ -1,20 +1,26 @@
 {
-  "title": "Wireless Registration",
-  "hits": 0,
-  "description": "",
-  "panelsJSON": "[{\"col\":1,\"id\":\"wireless_registration-CCQ\",\"panelIndex\":1,\"row\":3,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":7,\"id\":\"wireless_registration-Signal-Strength\",\"panelIndex\":2,\"row\":3,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Device-Ids\",\"panelIndex\":3,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"wireless_registration-ccq-distribution\",\"panelIndex\":4,\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":8,\"id\":\"wireless_registration-signal_strength-distribution\",\"panelIndex\":5,\"row\":1,\"size_x\":5,\"size_y\":2,\"type\":\"visualization\"}]",
-  "optionsJSON": "{\"darkTheme\":false}",
-  "uiStateJSON": "{\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"legendOpen\":false}},\"P-5\":{\"vis\":{\"legendOpen\":false}}}",
-  "version": 1,
-  "timeRestore": true,
-  "timeTo": "now",
-  "timeFrom": "now-4h",
-  "refreshInterval": {
-    "display": "Off",
-    "pause": false,
-    "value": 0
-  },
-  "kibanaSavedObjectMeta": {
-    "searchSourceJSON": "{\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"logstash-*\",\"key\":\"device_id.keyword\",\"negate\":false,\"value\":\"43CE0231900D\"},\"query\":{\"match\":{\"device_id.keyword\":{\"query\":\"43CE0231900D\",\"type\":\"phrase\"}}}},{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+  "_index": ".kibana",
+  "_type": "dashboard",
+  "_id": "Wireless-Registration",
+  "_score": 1.0,
+  "_source": {
+    "title": "Wireless Registration",
+    "hits": 0,
+    "description": "",
+    "panelsJSON": "[{\"col\":1,\"id\":\"wireless_registration-CCQ\",\"panelIndex\":1,\"row\":3,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":7,\"id\":\"wireless_registration-Signal-Strength\",\"panelIndex\":2,\"row\":3,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Device-Ids\",\"panelIndex\":3,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":4,\"id\":\"wireless_registration-ccq-distribution\",\"panelIndex\":4,\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":8,\"id\":\"wireless_registration-signal_strength-distribution\",\"panelIndex\":5,\"row\":1,\"size_x\":5,\"size_y\":2,\"type\":\"visualization\"}]",
+    "optionsJSON": "{\"darkTheme\":false}",
+    "uiStateJSON": "{\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"legendOpen\":false}},\"P-5\":{\"vis\":{\"legendOpen\":false}}}",
+    "version": 1,
+    "timeRestore": true,
+    "timeTo": "now",
+    "timeFrom": "now-4h",
+    "refreshInterval": {
+      "display": "Off",
+      "pause": false,
+      "value": 0
+    },
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"index\":\"logstash-*\",\"key\":\"device_id.keyword\",\"negate\":false,\"value\":\"43CE0231900D\"},\"query\":{\"match\":{\"device_id.keyword\":{\"query\":\"43CE0231900D\",\"type\":\"phrase\"}}}},{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+    }
   }
 }

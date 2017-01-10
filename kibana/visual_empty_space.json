@@ -1,10 +1,16 @@
 {
-  "title": "",
-  "visState": "{\n  \"title\": \"Empty Space\",\n  \"type\": \"markdown\",\n  \"params\": {},\n  \"aggs\": [],\n  \"listeners\": {}\n}",
-  "uiStateJSON": "{}",
-  "description": "",
-  "version": 1,
-  "kibanaSavedObjectMeta": {
-    "searchSourceJSON": "{\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+  "_index": ".kibana",
+  "_type": "visualization",
+  "_id": "Empty-Space",
+  "_score": 1.0,
+  "_source": {
+    "title": "",
+    "visState": "{\n  \"title\": \"Empty Space\",\n  \"type\": \"markdown\",\n  \"params\": {},\n  \"aggs\": [],\n  \"listeners\": {}\n}",
+    "uiStateJSON": "{}",
+    "description": "",
+    "version": 1,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\n  \"query\": {\n    \"query_string\": {\n      \"query\": \"*\",\n      \"analyze_wildcard\": true\n    }\n  },\n  \"filter\": []\n}"
+    }
   }
 }
