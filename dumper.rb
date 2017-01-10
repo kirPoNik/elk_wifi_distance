@@ -76,7 +76,7 @@ client = Elasticsearch::Client.new hosts: [ { host: host, port: port } ]
             name = dash["_id"].gsub(" ","_").downcase
             puts name
             File.open(File.join(outputdir, "dash_#{name}.json"), "w") do |fp|
-                fp.write(JSON.pretty_generate( dash["_source"] ))
+                fp.write(JSON.pretty_generate( dash ))
             end
         end
     end
@@ -98,7 +98,7 @@ client = Elasticsearch::Client.new hosts: [ { host: host, port: port } ]
             name = dash["_id"].gsub("-","_").downcase
             puts name
             File.open(File.join(outputdir, "visual_#{name}.json"), "w") do |fp|
-                fp.write(JSON.pretty_generate( dash["_source"] ))
+                fp.write(JSON.pretty_generate( dash ))
             end
         end
     end
