@@ -95,8 +95,10 @@ client = Elasticsearch::Client.new hosts: [ { host: host, port: port } ]
     end
     if rslt.has_key?("hits")
         rslt["hits"]["hits"].each do |dash|
-            name = dash["_id"].gsub("-","_").downcase
-            puts name
+            id = dash["_id"].gsub("-","_").downcase
+			#title = dash['_source']['title'].gsub("-","_").downcase
+            name =  id
+			puts name
             File.open(File.join(outputdir, "visual_#{name}.json"), "w") do |fp|
                 fp.write(JSON.pretty_generate( dash ))
             end
