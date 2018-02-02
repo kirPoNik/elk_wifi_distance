@@ -1,0 +1,30 @@
+{
+    "query" : {
+        "query_string": {
+          "default_field": "mac_address",
+          "query": "*"
+        }
+    },
+    "size": 0, 
+    "aggs": {
+      
+        "1": {
+          "date_histogram": {
+            "field": "@timestamp",
+            "interval": "day"
+          },
+            "aggs": {
+              "profit": {
+                "scripted_metric": {
+                    "init_script" : "params._agg.macs = [:]",
+                    "map_script" : "def mac=doc['mac_address.keyword'].value; def duration = doc['wlan_duration'].value; if (params._agg.macs.containsKey(mac)) {  params._agg.macs[mac].add(duration); } else {  params._agg.macs[mac] = [];  params._agg.macs[mac].add(duration); }", 
+                    "combine_script" : "def f = [:]; for (t in  params._agg.macs.keySet() ) { def s = params._agg.macs[t].sum() ; f.put(t,s)  } return f;",
+                    "reduce_script": "def f = [:]; def out = [:]; def less_fifteen = 0; def less_thirty = 0; def more_thirty = 0 ; for (a in params._aggs) {  if (a == null ) {continue;} for (t in  a.keySet() ) { if (f.containsKey(t) ) { f[t] += a.get(t)  } else { f[t] = a.get(t) } } } for ( mac in f.keySet()  )  { if (f.get(mac) < 900000) { less_fifteen +=1} else if (f.get(mac) < 1800000) {less_thirty+=1}  else {more_thirty+=1}    }  out['less_fifteen'] = less_fifteen; out['less_thirty'] = less_thirty;out['more_thirty'] = more_thirty ;  return out;"
+                }
+              }
+            }
+        }
+      
+        
+    }
+}
