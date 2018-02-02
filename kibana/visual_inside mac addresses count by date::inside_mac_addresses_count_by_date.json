@@ -1,7 +1,7 @@
 {
   "_index": ".kibana",
   "_type": "visualization",
-  "_id": "insiders-count-by-device_id",
+  "_id": "Inside-MAC-addresses-count-by-date",
   "_score": 1.0,
   "_source": {
     "title": "Inside MAC addresses count by date",
@@ -10,7 +10,7 @@
     "description": "",
     "version": 1,
     "kibanaSavedObjectMeta": {
-      "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"device_type:insider AND ( network_source:seen_data_frame OR  (tags:http_import AND mac_address:* )  )\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"device_type:insider AND ( network_source:(\\\"seen_data_frame\\\" OR none) OR  (tags:http_import AND mac_address:* )  )\",\"analyze_wildcard\":true}},\"filter\":[]}"
     }
   }
 }

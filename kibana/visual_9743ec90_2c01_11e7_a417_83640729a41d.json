@@ -1,0 +1,16 @@
+{
+  "_index": ".kibana",
+  "_type": "visualization",
+  "_id": "9743ec90-2c01-11e7-a417-83640729a41d",
+  "_score": 1.0,
+  "_source": {
+    "title": "Top-5 devices",
+    "visState": "{\"title\":\"Top-5 devices\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":false,\"legendPosition\":\"right\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"mac_address.keyword\",\"customLabel\":\"Visitant\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"oui.organization.keyword\",\"exclude\":\"\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"hrht\"}}],\"listeners\":{}}",
+    "uiStateJSON": "{}",
+    "description": "",
+    "version": 1,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"VIGNA AND insider AND network_source:(\\\"seen_data_frame\\\" OR none ) AND _exists_: oui.organization AND -oui.organization: (\\\"zte corporation\\\" or \\\"SYNTECH INFORMATION CO., LTD.\\\" or \\\"Samsung Electro Mechanics co., LTD.\\\" or \\\"InPro Comm\\\" or \\\"TRENDnet, Inc.\\\" or \\\"Objetivos y Sevicios de Valor Añadido\\\" or \\\"Murata Manufacturing Co., Ltd.\\\" or \\\"Arcadyan Technology Corporation\\\" or \\\"Routerboard.com\\\" or \\\"Open Mesh, Inc.\\\" or \\\"D-Link International\\\" or \\\"ASKEY COMPUTER CORP\\\")\",\"analyze_wildcard\":true}},\"filter\":[]}"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_index": ".kibana",
+  "_type": "visualization",
+  "_id": "Unique_MACS_Per_REPORTING_DEVICE_2",
+  "_score": 1.0,
+  "_source": {
+    "title": "Unique_MACS_Per_REPORTING_DEVICE_2",
+    "visState": "{\"title\":\"Unique_MACS_Per_REPORTING_DEVICE_2\",\"type\":\"line\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"setYExtents\":false,\"shareYAxis\":true,\"showCircles\":true,\"smoothLines\":false,\"times\":[],\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"mac_address.keyword\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"custom\",\"customInterval\":\"15m\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"AC:86:74:74:D5:70-umac\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"\\\"AC:86:74:74:D5:08\\\"\"}}},\"label\":\"\\\"AC:86:74:74:D5:08\\\" - http_tracks\"},{\"input\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"\\\"AC:86:74:15:25:28\\\"\"}}},\"label\":\"\\\"AC:86:74:15:25:28\\\" - http_tracks\"},{\"input\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"\\\"65D204559B38\\\"\"}}},\"label\":\"mAP - \\\"65D204559B38\\\"\"},{\"input\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"\\\"43CE02FDBC7D\\\"\"}}},\"label\":\"952 - \\\"43CE02FDBC7D\\\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"\\\"657105FC1C2B\\\"\",\"analyze_wildcard\":true}}},\"label\":\"wAP - \\\"657105FC1C2B\\\"\"}]}}],\"listeners\":{}}",
+    "uiStateJSON": "{\"vis\":{\"colors\":{\"\\\"65D204559B38\\\" - Petit\":\"#58140C\",\"\\\"AC:86:74:74:D4:88\\\" - http_import\":\"#447EBC\",\"\\\"AC:86:74:74:D5:70\\\" - http_import\":\"#70DBED\",\"\\\"AC:86:74:15:25:28\\\" - http_tracks\":\"#3F6833\",\"\\\"AC:86:74:74:D5:08\\\" - http_tracks\":\"#7EB26D\",\"952 - \\\"43CE02FDBC7D\\\"\":\"#705DA0\",\"mAP - \\\"65D204559B38\\\"\":\"#AEA2E0\",\"wAP - \\\"657105FC1C2B\\\"\":\"#3F2B5B\"},\"legendOpen\":true}}",
+    "description": "",
+    "version": 1,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"(type:station AND network_source:(\\\"seen_data_frame\\\" OR none) ) OR tags:http_track\"}},\"filter\":[]}"
+    }
+  }
+}

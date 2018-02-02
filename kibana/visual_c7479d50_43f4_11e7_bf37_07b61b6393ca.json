@@ -1,0 +1,16 @@
+{
+  "_index": ".kibana",
+  "_type": "visualization",
+  "_id": "c7479d50-43f4-11e7-bf37-07b61b6393ca",
+  "_score": 1.0,
+  "_source": {
+    "title": "Storefront visitors counter",
+    "visState": "{\"title\":\"Storefront visitors counter\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"mac_address.keyword\",\"customLabel\":\"Storefront visitors\"}}],\"listeners\":{}}",
+    "uiStateJSON": "{}",
+    "description": "",
+    "version": 1,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"distance:>10 AND distance:<11 AND VIGNA AND network_source:(\\\"seen_data_frame\\\" OR none ) AND _exists_: oui.organization AND -oui.organization: (\\\"zte corporation\\\" or \\\"SYNTECH INFORMATION CO., LTD.\\\" or \\\"Samsung Electro Mechanics co., LTD.\\\" or \\\"InPro Comm\\\" or \\\"TRENDnet, Inc.\\\" or \\\"Objetivos y Sevicios de Valor Añadido\\\" or \\\"Murata Manufacturing Co., Ltd.\\\" or \\\"Arcadyan Technology Corporation\\\" or \\\"Routerboard.com\\\" or \\\"Open Mesh, Inc.\\\" or \\\"D-Link International\\\" or \\\"ASKEY COMPUTER CORP\\\")\",\"analyze_wildcard\":true}},\"filter\":[]}"
+    }
+  }
+}

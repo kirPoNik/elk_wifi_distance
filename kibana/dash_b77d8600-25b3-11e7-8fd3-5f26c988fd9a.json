@@ -1,0 +1,19 @@
+{
+  "_index": ".kibana",
+  "_type": "dashboard",
+  "_id": "b77d8600-25b3-11e7-8fd3-5f26c988fd9a",
+  "_score": 1.0,
+  "_source": {
+    "title": "Número de visitantes en tienda - Mikrotik",
+    "hits": 0,
+    "description": "",
+    "panelsJSON": "[{\"size_x\":6,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"a2f21fc0-25b3-11e7-8fd3-5f26c988fd9a\",\"col\":1,\"row\":1}]",
+    "optionsJSON": "{\"darkTheme\":false}",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "timeRestore": false,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+    }
+  }
+}

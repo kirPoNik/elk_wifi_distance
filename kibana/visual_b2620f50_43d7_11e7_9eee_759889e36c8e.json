@@ -1,0 +1,16 @@
+{
+  "_index": ".kibana",
+  "_type": "visualization",
+  "_id": "b2620f50-43d7-11e7-9eee-759889e36c8e",
+  "_score": 1.0,
+  "_source": {
+    "title": "Most concurrent time at storefront",
+    "visState": "{\"title\":\"Most concurrent time at storefront\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"mac_address.keyword\",\"customLabel\":\"Storefront visitors\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Timestamp per 30 minutes\"}}],\"listeners\":{}}",
+    "uiStateJSON": "{\"vis\":{\"colors\":{\"devices\":\"#1F78C1\"}}}",
+    "description": "",
+    "version": 1,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"VIGNA AND distance:>10 AND distance:<11 AND network_source:(\\\"seen_data_frame\\\" OR none ) AND _exists_: oui.organization AND -oui.organization: (\\\"zte corporation\\\" or \\\"SYNTECH INFORMATION CO., LTD.\\\" or \\\"Samsung Electro Mechanics co., LTD.\\\" or \\\"InPro Comm\\\" or \\\"TRENDnet, Inc.\\\" or \\\"Objetivos y Sevicios de Valor Añadido\\\" or \\\"Murata Manufacturing Co., Ltd.\\\" or \\\"Arcadyan Technology Corporation\\\" or \\\"Routerboard.com\\\" or \\\"Open Mesh, Inc.\\\" or \\\"D-Link International\\\" or \\\"ASKEY COMPUTER CORP\\\")\",\"analyze_wildcard\":true}},\"filter\":[]}"
+    }
+  }
+}
