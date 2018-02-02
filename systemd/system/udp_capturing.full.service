@@ -1,0 +1,12 @@
+[Unit]
+Description=Tshark UDP capturing Full
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart= /bin/bash -ce "exec /usr/local/bin/tshark -i enp0s31f6  -f \"udp and port 37008\" -T ek  >> /opt/out/tshark_udp_stdout_full.log"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+

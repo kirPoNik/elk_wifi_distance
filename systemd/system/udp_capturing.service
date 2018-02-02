@@ -1,0 +1,17 @@
+[Unit]
+Description=Tshark UDP capturing
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+##ExecStart= /bin/bash -ce "exec /usr/local/bin/tshark -i enp0s31f6  -f \"udp and port 37008\" -T ek  >> /opt/out/tshark_udp_stdout.log"
+#ExecStart= /bin/bash -ce "exec /usr/local/bin/tshark -i enp0s31f6  -f \"udp and port 37008\" -T fields -e frame.time_epoch -e eth.dst -e eth.dst_resolved -e eth.src -e eth.src_resolved -e tzsp.wlan.signal  -e tzsp.wlan.channel -e tzsp.sensormac -e wlan.sa -e wlan.sa_resolved -e wlan.ta -e wlan.ta_resolved -e wlan.ra -e wlan.ra_resolved -e wlan.da -e wlan.da_resolved -e wlan.bssid  -e wlan.bssid_resolved -e wlan.fc.tods -e wlan.fc.fromds  >> /opt/out/tshark_udp_stdout.log"
+
+
+ExecStart= /bin/bash -ce "exec /usr/local/bin/tshark -i enp0s31f6  -f \"udp and port 37008\" -T fields  -E \"separator=,\" -E \"quote=d\"  -e frame.time_epoch  -e tzsp.wlan.signal  -e tzsp.wlan.channel -e tzsp.sensormac -e wlan.sa -e wlan.ta -e wlan.ra -e wlan.da -e wlan.fc.tods -e wlan.fc.fromds -e wlan.bssid  -e wlan.fc.type -e wlan.fc.subtype  -e wlan.fc.type_subtype -e wlan.duration   >> /opt/out/tshark_udp_stdout.log"
+Restart=always
+ExecReload=/bin/kill -SIGHUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+
