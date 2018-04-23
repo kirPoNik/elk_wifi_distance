@@ -1,0 +1,46 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "query_string": {
+            "query": "signal_strength_int:[-76 TO 0]",
+            "analyze_wildcard": true
+          }
+        },
+        {
+          "range": {
+            "@timestamp": {
+              "gte": 1518026989114,
+              "lte": 1518458989115,
+              "format": "epoch_millis"
+            }
+          }
+        }
+      ],
+      "must_not": []
+    }
+  },
+  "size": 0,
+  "aggs": {
+    "2": {
+      "date_histogram": {
+        "field": "@timestamp",
+        "interval": "1d",
+        "time_zone": "CET",
+        "min_doc_count": 0
+      },
+      "aggs": {
+            "2-metric": {
+              "scripted_metric": {
+                "init_script" : "params._agg.macs = [:]",
+                "map_script" : "def mac=doc['mac_address.keyword'].value; def duration = doc['wlan_duration'].value; if (params._agg.macs.containsKey(mac)) {  params._agg.macs[mac].add(duration); } else {  params._agg.macs[mac] = [];  params._agg.macs[mac].add(duration); }",
+                "combine_script" : "def f = [:]; for (t in  params._agg.macs.keySet() ) { def s = params._agg.macs[t].sum() ; f.put(t,s)  } return f;",
+                "reduce_script": "def f = [:]; def out = [:]; def total = 0; for (a in params._aggs) {  if (a == null ) {continue;}    for (t in  a.keySet() ) {   if (f.containsKey(t) ) {    f[t] += a.get(t)     } else {    f[t] = a.get(t)   }  }}for ( mac in f.keySet()  )  {  if ( f.get(mac) >  60000) {   total +=1  } } return total;"
+
+              }
+            }
+      }
+    }
+  }
+}
